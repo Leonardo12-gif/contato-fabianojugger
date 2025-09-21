@@ -150,7 +150,7 @@ const Index = () => {
             <Button asChild className="btn-primary px-8 py-6 text-lg rounded-2xl">
               <a href="https://wa.me/5515991273423" target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="w-5 h-5 mr-2" />
-                Fale comigo no WhatsApp
+                Fale com a minha Assessoria
               </a>
             </Button>
             <Button asChild variant="outline" className="btn-secondary px-8 py-6 text-lg rounded-2xl">
