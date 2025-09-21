@@ -161,10 +161,10 @@ const Index = () => {
           
           <div className="animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
             <h1 className="text-4xl md:text-6xl font-display font-bold mb-4 text-glow">
-              Frezza Marketing
+              Fabiano Ferreira
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-              Automação • Sites • Personal Media
+              The Juggernaut
             </p>
           </div>
 
