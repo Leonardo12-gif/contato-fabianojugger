@@ -171,15 +171,15 @@ const Index = () => {
           <div className="flex flex-wrap justify-center gap-4 mb-8 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
             <span className="badge">
               <MapPin className="w-3 h-3 mr-1" />
-              Atendemos Brasil inteiro
+              Parcerias
             </span>
             <span className="badge">
               <Clock className="w-3 h-3 mr-1" />
-              Resposta rápida
+              Publicidades
             </span>
             <span className="badge">
               <CheckCircle className="w-3 h-3 mr-1" />
-              Resultados garantidos
+              Eventos
             </span>
           </div>
 
