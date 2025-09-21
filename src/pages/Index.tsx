@@ -4,7 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
 import { toast } from "sonner";
-import { MessageCircle, Mail, Instagram, Linkedin, Youtube, ExternalLink, ChevronRight, Zap, Globe, TrendingUp, Users, Megaphone, Settings, CheckCircle, Clock, MapPin } from "lucide-react";
+import { MessageCircle, Mail, Instagram, Facebook, Youtube, ExternalLink, ChevronRight, Zap, Globe, TrendingUp, Users, Megaphone, Settings, CheckCircle, Clock, MapPin } from "lucide-react";
 const Index = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -49,19 +49,19 @@ const Index = () => {
     href: "https://instagram.com/frezzamarketing",
     type: "external"
   }, {
+    title: "YouTube",
+    icon: <Youtube className="w-5 h-5" />,
+    href: "https://www.youtube.com/@fabianoferreira1956",
+    type: "external"
+  }, {
     title: "WhatsApp",
     icon: <MessageCircle className="w-5 h-5" />,
     href: "https://wa.me/5515991273423",
     type: "external"
   }, {
-    title: "LinkedIn",
-    icon: <Linkedin className="w-5 h-5" />,
-    href: "https://linkedin.com/company/frezzamarketing",
-    type: "external"
-  }, {
-    title: "YouTube",
-    icon: <Youtube className="w-5 h-5" />,
-    href: "https://youtube.com/@frezzamarketing",
+    title: "Facebook",
+    icon: <Facebook className="w-5 h-5" />,
+    href: "https://www.facebook.com/FabianoFerreiraJuggernaut?locale=pt_BR",
     type: "external"
   }];
   const services = [{
@@ -204,10 +204,10 @@ const Index = () => {
               <a href="https://instagram.com/frezzamarketing" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors">
                 <Instagram className="w-6 h-6" />
               </a>
-              <a href="https://linkedin.com/company/frezzamarketing" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors">
-                <Linkedin className="w-6 h-6" />
+              <a href="https://www.facebook.com/FabianoFerreiraJuggernaut?locale=pt_BR" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors">
+                <Facebook className="w-6 h-6" />
               </a>
-              <a href="https://youtube.com/@frezzamarketing" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors">
+              <a href="https://www.youtube.com/@fabianoferreira1956" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors">
                 <Youtube className="w-6 h-6" />
               </a>
             </div>
