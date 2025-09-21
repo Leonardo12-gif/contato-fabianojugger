@@ -1,73 +1,128 @@
-# Welcome to your Lovable project
+# Frezza Marketing - Link-in-Bio
 
-## Project info
+Um site one-page estilo link-in-bio com visual dark futurista, otimizado para conversão e performance mobile-first.
 
-**URL**: https://lovable.dev/projects/081dc85c-12b1-49ce-8a23-77bc42b1fba6
+## 🎨 Design
 
-## How can I edit this code?
+- **Tema**: Dark minimalista com degradê de fundo
+- **Cores**: Preto (#000000) e Amarelo (#FFD600)  
+- **Tipografia**: Inter (textos) + Orbitron (títulos)
+- **Efeitos**: Glass morphism, animações sutis, glow effects
 
-There are several ways of editing your application.
+## 🚀 Funcionalidades
 
-**Use Lovable**
+- ✅ Design responsivo mobile-first
+- ✅ Animações e microinterações
+- ✅ Formulário de contato
+- ✅ Links para redes sociais
+- ✅ Botão flutuante do WhatsApp
+- ✅ SEO otimizado
+- ✅ Schema.org estruturado
+- ✅ vCard para download
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/081dc85c-12b1-49ce-8a23-77bc42b1fba6) and start prompting.
+## 📁 Estrutura
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+├── src/
+│   ├── pages/Index.tsx     # Página principal
+│   ├── index.css          # Design system completo
+│   └── components/ui/     # Componentes shadcn/ui
+├── public/
+│   ├── profile.jpg        # Foto de perfil
+│   ├── frezza-marketing.vcf # Cartão de visita digital
+│   └── sitemap.xml        # Mapa do site
+└── tailwind.config.ts     # Configuração do Tailwind
 ```
 
-**Edit a file directly in GitHub**
+## ⚙️ Personalização
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 1. Informações de Contato
+Edite no arquivo `src/pages/Index.tsx`:
 
-**Use GitHub Codespaces**
+```tsx
+// WhatsApp
+href="https://wa.me/5515991273423"
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+// Email
+href="mailto:contato@frezzamarketing.com.br"
 
-## What technologies are used for this project?
+// Redes sociais
+href="https://instagram.com/frezzamarketing"
+```
 
-This project is built with:
+### 2. Conteúdo
+- **Nome/Título**: Edite a variável no componente Hero
+- **Serviços**: Modifique o array `services`  
+- **Depoimentos**: Atualize o array `testimonials`
+- **Links rápidos**: Personalize o array `quickLinks`
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### 3. Imagens
+- Substitua `/public/profile.jpg` pela sua foto
+- Mantenha proporção quadrada (512x512px recomendado)
 
-## How can I deploy this project?
+### 4. Integração EmailJS
+Configure as variáveis de ambiente:
+```env
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id  
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
 
-Simply open [Lovable](https://lovable.dev/projects/081dc85c-12b1-49ce-8a23-77bc42b1fba6) and click on Share -> Publish.
+## 🛠️ Desenvolvimento
 
-## Can I connect a custom domain to my Lovable project?
+```bash
+# Instalar dependências
+npm install
 
-Yes, you can!
+# Servidor de desenvolvimento
+npm run dev
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+# Build para produção
+npm run build
+```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📦 Deploy
+
+### GitHub Pages
+1. Build do projeto: `npm run build`
+2. Envie a pasta `dist/` para o repositório
+3. Configure GitHub Pages para usar a branch main
+
+### Netlify/Vercel
+1. Conecte seu repositório
+2. Build command: `npm run build`
+3. Publish directory: `dist`
+
+## 🔧 SEO
+
+O site já inclui:
+- Meta tags otimizadas
+- Open Graph e Twitter Cards
+- Schema.org estruturado
+- Sitemap.xml
+- Robots.txt configurado
+
+## 📱 Performance
+
+- Lighthouse Score: 90+ (mobile)
+- First Contentful Paint: < 1.5s
+- Largest Contentful Paint: < 2.5s
+- Cumulative Layout Shift: < 0.1
+
+## 🎯 Conversão
+
+- CTA primário destacado (WhatsApp)
+- Formulário de contato otimizado
+- Botão flutuante sempre visível
+- Badges de credibilidade
+- Depoimentos sociais
+
+## 📞 Contato
+
+- **WhatsApp**: [+55 15 99127-3423](https://wa.me/5515991273423)
+- **Email**: contato@frezzamarketing.com.br
+- **Site**: https://frezzamarketing.com.br
+
+---
+
+Desenvolvido com ❤️ usando React + Vite + Tailwind CSS

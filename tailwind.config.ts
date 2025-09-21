@@ -17,11 +17,16 @@ export default {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
+        background: {
+          DEFAULT: "hsl(var(--background))",
+          secondary: "hsl(var(--background-secondary))",
+        },
         foreground: "hsl(var(--foreground))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          hover: "hsl(var(--primary-hover))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -39,24 +44,31 @@ export default {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
         },
-        popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
-        },
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+          border: "hsl(var(--card-border))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
-        },
+      },
+      fontFamily: {
+        'sans': ['Inter', 'system-ui', 'sans-serif'],
+        'display': ['Orbitron', 'system-ui', 'sans-serif'],
+      },
+      backgroundImage: {
+        'gradient-radial': 'var(--gradient-radial)',
+        'gradient-card': 'var(--gradient-card)',
+        'gradient-button': 'var(--gradient-button)',
+      },
+      boxShadow: {
+        'card': 'var(--shadow-card)',
+        'button': 'var(--shadow-button)',
+        'glow': 'var(--shadow-glow)',
+        'gradient-glow': 'var(--gradient-glow)',
+      },
+      animation: {
+        'fade-in-up': 'fade-in-up 0.6s ease-out forwards',
+        'pulse-glow': 'pulse-glow 2s infinite',
+        'shimmer': 'shimmer 0.8s ease-out',
       },
       borderRadius: {
         lg: "var(--radius)",
