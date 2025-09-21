@@ -163,6 +163,42 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Partners Section */}
+      <section className="py-12 px-4">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-2xl font-display font-bold text-center mb-8 text-muted-foreground">
+            Parceiros e Patrocinadores
+          </h2>
+          <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 opacity-70 hover:opacity-100 transition-opacity duration-300">
+            <img 
+              src="/partners/frezza-logo.png" 
+              alt="Frezza Marketing" 
+              className="h-12 md:h-16 object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
+            />
+            <img 
+              src="/partners/marine-sugar.png" 
+              alt="Marine Sugar" 
+              className="h-12 md:h-16 object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
+            />
+            <img 
+              src="/partners/partner1.png" 
+              alt="Parceiro" 
+              className="h-12 md:h-16 object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
+            />
+            <img 
+              src="/partners/partner2.png" 
+              alt="Parceiro" 
+              className="h-12 md:h-16 object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
+            />
+            <img 
+              src="/partners/partner3.png" 
+              alt="Parceiro" 
+              className="h-12 md:h-16 object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Quick Links Section */}
       <section className="py-16 px-4">
         <div className="max-w-2xl mx-auto">
