@@ -164,7 +164,7 @@ const Index = () => {
       </section>
 
       {/* Partners Section */}
-      <section className="py-12 px-4">
+      <section className="py-6 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-2xl font-display font-bold text-center mb-8 text-muted-foreground">
             Parceiros e Patrocinadores
@@ -200,7 +200,7 @@ const Index = () => {
       </section>
 
       {/* Quick Links Section */}
-      <section className="py-16 px-4">
+      <section className="py-8 px-4">
         <div className="max-w-2xl mx-auto">
           <h2 className="text-3xl font-display font-bold text-center mb-12">
             Conecte-se comigo em um só lugar
