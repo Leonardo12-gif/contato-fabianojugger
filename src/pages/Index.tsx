@@ -26,7 +26,7 @@ const Index = () => {
   const quickLinks = [{
     title: "Serviços",
     icon: <Settings className="w-5 h-5" />,
-    href: "#servicos",
+    href: "/servicos",
     type: "internal"
   }, {
     title: "Portfólio",
