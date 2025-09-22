@@ -165,31 +165,11 @@ const Index = () => {
             Parceiros e Patrocinadores
           </h2>
           <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 opacity-70 hover:opacity-100 transition-opacity duration-300">
-            <img 
-              src="/partners/frezza-logo.png" 
-              alt="Frezza Marketing" 
-              className="h-12 md:h-16 object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
-            />
-            <img 
-              src="/partners/marine-sugar.png" 
-              alt="Marine Sugar" 
-              className="h-12 md:h-16 object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
-            />
-            <img 
-              src="/partners/partner1.png" 
-              alt="Parceiro" 
-              className="h-12 md:h-16 object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
-            />
-            <img 
-              src="/partners/partner2.png" 
-              alt="Parceiro" 
-              className="h-12 md:h-16 object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
-            />
-            <img 
-              src="/partners/partner3.png" 
-              alt="Parceiro" 
-              className="h-12 md:h-16 object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
-            />
+            <img src="/partners/frezza-logo.png" alt="Frezza Marketing" className="h-12 md:h-16 object-contain filter grayscale hover:grayscale-0 transition-all duration-300" />
+            <img src="/partners/marine-sugar.png" alt="Marine Sugar" className="h-12 md:h-16 object-contain filter grayscale hover:grayscale-0 transition-all duration-300" />
+            <img src="/partners/partner1.png" alt="Parceiro" className="h-12 md:h-16 object-contain filter grayscale hover:grayscale-0 transition-all duration-300" />
+            <img src="/partners/partner2.png" alt="Parceiro" className="h-12 md:h-16 object-contain filter grayscale hover:grayscale-0 transition-all duration-300" />
+            <img src="/partners/partner3.png" alt="Parceiro" className="h-12 md:h-16 object-contain filter grayscale hover:grayscale-0 transition-all duration-300" />
           </div>
         </div>
       </section>
@@ -244,9 +224,7 @@ const Index = () => {
             </div>
             
             <Button asChild variant="outline" className="btn-secondary mb-6">
-              <a href="/frezza-marketing.vcf" download>
-                Baixar vCard
-              </a>
+              
             </Button>
           </div>
           
