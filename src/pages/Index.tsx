@@ -29,20 +29,15 @@ const Index = () => {
     href: "/servicos",
     type: "internal"
   }, {
-    title: "Portfólio",
+    title: "Mídia Kit",
     icon: <ExternalLink className="w-5 h-5" />,
-    href: "https://drive.google.com/drive/folders/exemplo",
+    href: "https://www.canva.com/design/DAGzFaw7kNw/4ww98NKjD9g3GYW8q8Y8KA/view?utm_content=DAGzFaw7kNw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4dd90342cd#12",
     type: "external"
   }, {
     title: "Orçamento Rápido",
     icon: <MessageCircle className="w-5 h-5" />,
     href: "#contato",
     type: "internal"
-  }, {
-    title: "Catálogo/Apresentação",
-    icon: <ExternalLink className="w-5 h-5" />,
-    href: "/catalogo.pdf",
-    type: "external"
   }, {
     title: "Instagram",
     icon: <Instagram className="w-5 h-5" />,
