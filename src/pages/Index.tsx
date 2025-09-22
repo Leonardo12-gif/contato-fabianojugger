@@ -42,12 +42,12 @@ const Index = () => {
   }, {
     title: "Instagram",
     icon: <Instagram className="w-5 h-5" />,
-    href: "https://instagram.com/frezzamarketing",
+    href: "https://www.instagram.com/fabiano.jugger/",
     type: "external"
   }, {
     title: "YouTube",
     icon: <Youtube className="w-5 h-5" />,
-    href: "https://www.youtube.com/@fabianoferreira1956",
+    href: "https://www.youtube.com/@fabianoferreirabodybuilder",
     type: "external"
   }, {
     title: "WhatsApp",
@@ -213,20 +213,17 @@ const Index = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-8">
             <div className="flex justify-center gap-6 mb-6">
-              <a href="https://instagram.com/frezzamarketing" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors">
+              <a href="https://www.instagram.com/fabiano.jugger/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors">
                 <Instagram className="w-6 h-6" />
               </a>
               <a href="https://www.facebook.com/FabianoFerreiraJuggernaut?locale=pt_BR" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors">
                 <Facebook className="w-6 h-6" />
               </a>
-              <a href="https://www.youtube.com/@fabianoferreira1956" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors">
+              <a href="https://www.youtube.com/@fabianoferreirabodybuilder" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors">
                 <Youtube className="w-6 h-6" />
               </a>
             </div>
             
-            <Button asChild variant="outline" className="btn-secondary mb-6">
-              
-            </Button>
           </div>
           
           <div className="text-center text-sm text-muted-foreground">
