@@ -51,8 +51,8 @@ export default {
         },
       },
       fontFamily: {
-        'sans': ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-        'orbitron': ['Orbitron', 'Inter', 'sans-serif'],
+        'sans': ['Inter', 'system-ui', 'sans-serif'],
+        'display': ['Orbitron', 'system-ui', 'sans-serif'],
       },
       backgroundImage: {
         'gradient-radial': 'var(--gradient-radial)',
