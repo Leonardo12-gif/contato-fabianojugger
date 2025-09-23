@@ -129,7 +129,6 @@ All colors MUST be HSL.
     border: 1px solid hsl(var(--primary-hover));
     box-shadow: var(--shadow-button);
     transition: var(--transition-smooth);
-    font-family: 'Orbitron', system-ui, sans-serif;
     font-weight: 500;
     letter-spacing: 0.025em;
   }
