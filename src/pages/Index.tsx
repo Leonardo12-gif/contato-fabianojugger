@@ -50,11 +50,6 @@ const Index = () => {
     href: "https://www.youtube.com/@fabianoferreirabodybuilder",
     type: "external"
   }, {
-    title: "WhatsApp",
-    icon: <MessageCircle className="w-5 h-5" />,
-    href: "https://wa.me/5515991273423",
-    type: "external"
-  }, {
     title: "Facebook",
     icon: <Facebook className="w-5 h-5" />,
     href: "https://www.facebook.com/FabianoFerreiraJuggernaut?locale=pt_BR",
@@ -143,12 +138,6 @@ const Index = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up" style={{
           animationDelay: "0.3s"
         }}>
-            <Button asChild className="btn-primary px-8 py-6 text-lg rounded-2xl">
-              <a href="https://wa.me/5515991273423" target="_blank" rel="noopener noreferrer">
-                <MessageCircle className="w-5 h-5 mr-2" />
-                Fale com a minha Assessoria
-              </a>
-            </Button>
             <Button asChild variant="outline" className="btn-secondary px-8 py-6 text-lg rounded-2xl">
               <a href="mailto:contato@frezzamarketing.com.br">
                 <Mail className="w-5 h-5 mr-2" />
@@ -236,10 +225,6 @@ const Index = () => {
         </div>
       </footer>
 
-      {/* Floating WhatsApp Button */}
-      <a href="https://wa.me/5515991273423" target="_blank" rel="noopener noreferrer" className="floating-whatsapp w-16 h-16 rounded-full flex items-center justify-center text-primary-foreground">
-        <MessageCircle className="w-8 h-8" />
-      </a>
     </div>;
 };
 export default Index;
