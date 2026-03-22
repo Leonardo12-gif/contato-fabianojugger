@@ -50,11 +50,6 @@ const Index = () => {
     href: "https://www.youtube.com/@fabianoferreirabodybuilder",
     type: "external"
   }, {
-    title: "WhatsApp",
-    icon: <MessageCircle className="w-5 h-5" />,
-    href: "https://wa.me/5515991273423",
-    type: "external"
-  }, {
     title: "Facebook",
     icon: <Facebook className="w-5 h-5" />,
     href: "https://www.facebook.com/FabianoFerreiraJuggernaut?locale=pt_BR",
