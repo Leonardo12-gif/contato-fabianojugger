@@ -230,10 +230,6 @@ const Index = () => {
         </div>
       </footer>
 
-      {/* Floating WhatsApp Button */}
-      <a href="https://wa.me/5515991273423" target="_blank" rel="noopener noreferrer" className="floating-whatsapp w-16 h-16 rounded-full flex items-center justify-center text-primary-foreground">
-        <MessageCircle className="w-8 h-8" />
-      </a>
     </div>;
 };
 export default Index;
